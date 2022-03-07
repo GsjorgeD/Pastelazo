@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout y Rutas</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FF5757;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: #FF5757;
+            padding: 30px;
+            border: 2px solid white;
+
+
+        }
+        p{
+          color: white;
+        }
+        .miboton{
+          text-decoration: none;
+          padding: 10px;
+          font-weight: 600;
+          font-size: 20px;
+          color: #ffffff;
+          background-color: #B84E4E;
+          border-radius: 6px;
+          border: 2px solid #ffffff;}
+
+          .compra{
+            color: #ffffff;
+          }
+
+        /* Estilo de footer */
+        footer {
+            background-color: #B84E4E;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="../src/img/logo.png" style="width: 5%; "  alt="Pastelazo logo">
+
+    </header>
+
+
+
+      <center>
+            <img src="../src/img/americano.png" style="width:20%" alt="Pastelazo logo">
+
+
+            <div class="compra">
+              <h2>Detalle de pedido</h2>
+              <label for="">Sabor de tu glaseado: </label>
+              <select name="pastel" disabled=»disabled»>
+                <option>Chocolate</option>
+                <option>Normal</option>
+                <option>Cajeta</option>
+              </select>
+              <label for="">Decorado: </label>
+              <select name="pastel" disabled=»disabled»>
+                <option>Flores de glaseado</option>
+                <option>Frutas silvestres</option>
+                <option>Petalos de chocolate</option>
+              </select>
+            </select>
+            <label for="">Tamaño: </label>
+            <select name="pastel" disabled=»disabled»>
+              <option>Chico (5 personas)</option>
+              <option>Mediano (10 personas)</option>
+              <option>Grande (20 personas)</option>
+            </select>
+              <label for="">Cantidad: </label>
+              <input type="number" name="" value="1" disabled=»disabled»>
+
+
+            </div>
+
+      </center>
+      <br>
+      <center>
+
+
+
+            <div class="compra">
+              <h2>Datos de contacto</h2>
+              <label for="">Nombre: </label>
+              <input type="text" name="" value="Jorge Daniel" disabled=»disabled»>
+              <label for="">Telefono: </label>
+              <input type="tel" name="" value="999123456" disabled=»disabled»>
+              <label for="">Correo: </label>
+              <input type="email" name="" value="jorgedaniel@mail.com" disabled=»disabled»>
+
+
+            </div>
+
+      </center>
+      <center>
+    <div class="compra">
+      <br>
+      <label for="">Descripcion adicional o mensaje en el pastel (*opcional): </label>
+      <br>
+      <br>
+      <textarea name="name" rows="8" cols="80"placeholder="Mensaje: FELICIDADES POR TERMINAR TUS PRACTICAS DE ESTA SEMANA!!!" disabled=»disabled»></textarea>
+    </div>
+    </center>
+    <center>
+      <br>
+      <input class="miboton" type="submit" value="Marcar como Preparado">
+    </center>
+
+
+
+    <br>
+    <br>
+    <footer>
+        <p>Avenida Siempre Viva #1424
+        Cd del Carmen Campeche
+       (999)123-45-67
+      Lunes a Sabado de 9 AM a 6 PM</p>
+    </footer>
+
+
+
+</body>
+
+</html>

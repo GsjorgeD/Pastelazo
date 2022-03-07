@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout y Rutas</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: #FF5757;
+            padding: 30px;
+            border: 2px solid white;
+
+
+        }
+        p{
+          color: white;
+        }
+        .miboton{
+          text-decoration: none;
+          padding: 10px;
+          font-weight: 600;
+          font-size: 20px;
+          color: #ffffff;
+          background-color: #B84E4E;
+          border-radius: 6px;
+          border: 2px solid #ffffff;}
+          .titulos{
+            text-align: center;
+
+          }
+          .table{
+  width: 100%;
+  border-spacing: 0;
+
+}
+.table td, .table th{
+  padding: 1em;
+  text-align: left;
+
+}
+.table tr:nth-child(even){
+  background-color: #FF5757;
+}
+
+        /* Estilo de footer */
+        footer {
+            background-color: #B84E4E;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="../src/img/logo.png" style="width: 5%; "  alt="Pastelazo logo">
+
+
+    </header>
+    <h1 class="titulos">Administración pastelería</h1>
+
+
+
+      <center>
+        <table class="table">
+        <thead>
+          <th>#</th>
+          <th>Pastel</th>
+          <th>Cliente</th>
+          <th>Detalles</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Pan americano</td>
+            <td>Jorge G</td>
+            <td><a href="detalle-pedido.html">ir al pedido</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pan americano</td>
+            <td>Daniel G</td>
+            <td><a href="detalle-pedido.html">ir al pedido</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Pan de chocolate</td>
+            <td>Jorge Daniel</td>
+            <td><a href="detalle-pedido.html">ir al pedido</a></td>
+            <td></td>
+          </tr>
+
+        </tbody>
+      </table>
+      </center>
+      <center>
+        <br>
+        <br>
+        <h2>Control de Inventario</h2>
+        <table class="table">
+        <thead>
+          <th>#</th>
+          <th>Insumo</th>
+          <th>Cantidad(KG)</th>
+
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Chocolate</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Glaceado</td>
+            <td>20</td>
+
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Glaceado</td>
+            <td>20</td>
+
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Cajeta</td>
+            <td>12</td>
+
+            <td></td>
+          </tr>
+
+        </tbody>
+      </table>
+      <br>
+      <br>
+      </center>
+
+
+    <footer>
+        <p>Avenida Siempre Viva #1424
+        Cd del Carmen Campeche
+        (999)123-45-67
+       Lunes a Sabado de 9 AM a 6 PM</p>
+    </footer>
+
+
+
+</body>
+
+</html>
